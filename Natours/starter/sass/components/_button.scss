@@ -8,7 +8,7 @@
 		border-radius: 10rem;
 		transition: all 0.2s;
 		position: relative;
-		font-size: 1.6rem;
+		font-size: $default-font-size;
 	}
 
 	&:hover {
@@ -55,3 +55,23 @@
 		animation-fill-mode: backwards; /* makes button opacity 0 at start of animation */
 	}
 }
+	
+	.btn-text {
+		&:link,
+		&:visited {
+			font-size: $default-font-size;
+			color: $color-primary;
+			display: inline-block;
+			text-decoration: none;
+			border-bottom: .1rem solid $color-primary;
+			padding: .3rem;
+		}
+
+		&:hover {
+
+		}
+
+		&:active {
+
+		}
+	}
