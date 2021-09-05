@@ -21,10 +21,6 @@ html {
 		font-size: 50%;  		// ! 1rem = 8px;  8px/16px = 50%
 	}
 
-	// @include respond(phone) {  			// ? width <= 600px?
-	// 	font-size: 37.5%;  	// ! 1rem = 6px; 6px/16px = 37.5%
-	// }
-
 }
 
 body {
